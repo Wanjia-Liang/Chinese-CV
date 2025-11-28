@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Wanjia Liang – 简历</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "SimSun", "Microsoft YaHei", serif;
+            background: #e6e6e6;
+        }
+
+        .cv-page {
+            width: 900px;
+            max-width: 100%;
+            margin: 20px auto;
+            background: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* ===== 顶部蓝色标题栏 ===== */
+        .cv-header {
+            background: #214768;
+            color: #ffffff;
+            padding: 25px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .name-block h1 {
+            margin: 0 0 10px;
+            font-size: 2.3rem;
+        }
+
+        .contact-list {
+            margin-top: 10px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 1.5em;
+            font-weight: 500;
+        }
+
+        .contact-item img.icon {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .photo-wrap {
+            width: 170px;
+            height: 220px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid #214768;
+            background: #ffffff;
+        }
+
+        .photo-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* ===== 主体内容 ===== */
+        .cv-main {
+            padding: 20px 25px 35px;
+            background-color: #fbfbf2;
+        }
+
+        .columns {
+            display: flex;
+            gap: 18px;
+            flex-wrap: wrap;
+        }
+
+        .column {
+            flex: 1;
+            min-width: 260px;
+            border: 6px solid #000000;
+            border-radius: 10px;
+            background: #fbfbf2;
+            padding: 15px 20px 20px;
+        }
+
+        .column div {
+            margin-bottom: 10px;
+        }
+
+        .section-title {
+            margin: 0 0 14px;
+            font-size: 1.4rem;
+            font-style: italic;
+            font-weight: 1000;
+            color: #2cb80d;
+            text-decoration: underline;
+        }
+
+        .role-line {
+            margin: 4px 0 6px;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .role-line span:first-child {
+            font-weight: normal;
+            margin-right: 4px;
+        }
+
+        p {
+            margin: 6px 0;
+            font-size: 1.02rem;
+            line-height: 1.5;
+        }
+
+        ul {
+            margin: 6px 0 0 18px;
+            padding: 0;
+            font-size: 1.02rem;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 720px) {
+            .cv-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+
+            .photo-wrap {
+                align-self: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cv-page">
+        <!-- 顶部标题栏 -->
+        <header class="cv-header">
+            <div class="name-block">
+                <h1 style="font-size: 2.7rem; margin:0 0 20px 0">Wanjia Liang</h1>
+                <div class="contact-list">
+                    <div class="contact-item">
+                        <img src="https://thumbs.dreamstime.com/b/gmail-logo-201003176.jpg" alt="" class="icon">
+                        <span style="margin-left: 12px;">judy.liangwanjia@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="https://www.nicepng.com/png/detail/11-116665_free-icons-png-telephone-icon-png.png"
+                            alt="" class="icon">
+                        <span style="margin-left: 12px;">+3580468959527</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="https://static.vecteezy.com/system/resources/previews/015/097/135/large_2x/apartment-building-icon-outline-city-center-vector.jpg"
+                            alt="" class="icon">
+                        <span style="margin-left: 12px;">芬兰赫尔辛基 00700</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo-wrap">
+                <img src="Profile.jpg" alt="Profile photo">
+            </div>
+        </header>
+
+        <!-- 主体内容 -->
+        <main class="cv-main">
+            <div class="columns">
+                <!-- 左列：工作经历 -->
+                <section class="column">
+                    <div class="workexperience">
+                        <h2 class="section-title">工作经历</h2>
+
+                        <p class="role-line"><span>~</span>办公室经理</p>
+                        <p>FinBlu Safety Oy</p>
+                        <p>2025年1月 – 2025年10月（2025年7–10月停薪留职）</p>
+                        <p>
+                            负责优化采购、仓库、订单管理和配送环节的工作流程与资源安排。
+                        </p>
+                        <p>
+                            规划并实施改进项目，以降低运营成本并提升客户满意度。
+                        </p>
+
+                        <p class="role-line"><span>~</span>客户服务</p>
+                        <p>FinBlu Safety Oy</p>
+                        <p>2024年3月 – 2024年12月</p>
+                        <p>
+                            负责90+客户的订单处理，从订单接收至发票结算，全流程管理。
+                        </p>
+                        <p>
+                            与公司内部团队协作，高效解决问题并保持优质服务水平。
+                        </p>
+
+                        <p class="role-line"><span>~</span>兼职服务员</p>
+                        <p>2023年9月 – 2024年3月 Kimchi Tapiola</p>
+                        <p>2023年11月 – 2023年12月 Seoul Good Lippulaiva</p>
+                        <p>2024年1月 – 2025年9月 Itsudemo Lippulaiva</p>
+                    </div>
+                </section>
+
+                <!-- 右列：教育 & 技能 -->
+                <section class="column">
+                    <div class="education">
+                        <h2 class="section-title">教育背景</h2>
+                        <p>芬兰 Centria 应用科学大学</p>
+                        <p>工程学学士（Bachelor of Engineering）</p>
+                        <p>商业智能技术（Business Intelligence Technology）</p>
+                    </div>
+
+                    <div class="techskills">
+                        <h2 class="section-title">技术技能</h2>
+                        <ul>
+                            <li>微软 Word、Excel、PowerPoint、Outlook</li>
+                            <li>Python & Power BI 数据分析</li>
+                            <li>界面原型设计（Figma、ProtoPie）</li>
+                            <li>前端网页开发（HTML、CSS、JavaScript）</li>
+                        </ul>
+                    </div>
+
+                    <div class="socialskills">
+                        <h2 class="section-title">社交能力</h2>
+                        <ul>
+                            <li>适应多文化与国际化工作环境</li>
+                            <li>团队协作与组织协调能力强</li>
+                        </ul>
+                    </div>
+
+                    <div class="languageskills">
+                        <h2 class="section-title">语言能力</h2>
+                        <ul>
+                            <li>中文 – 母语</li>
+                            <li>英语 – 工作熟练</li>
+                            <li>芬兰语 – 基础水平</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
