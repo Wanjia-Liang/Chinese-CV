@@ -131,17 +131,38 @@
             line-height: 1.5;
         }
 
-        @media (max-width: 720px) {
-            .cv-header {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 15px;
-            }
+@media (max-width: 720px) {
+    .cv-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 20px; /* 稍微缩小边距避免拥挤 */
+    }
 
-            .photo-wrap {
-                align-self: center;
-            }
-        }
+    .photo-wrap {
+        align-self: center;
+        width: 140px;
+        height: 180px; /* 头像比例更适合手机 */
+    }
+
+    .cv-main {
+        padding: 15px 15px 30px; /* 内容留白更舒适 */
+    }
+
+    .columns {
+        flex-direction: column; /* 单列显示，更清晰 */
+    }
+
+    .column {
+        min-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        font-size: 2rem; /* 手机上标题缩一点 */
+    }
+}
+
     </style>
 </head>
 
@@ -164,7 +185,7 @@
                     <div class="contact-item">
                         <img src="https://static.vecteezy.com/system/resources/previews/015/097/135/large_2x/apartment-building-icon-outline-city-center-vector.jpg"
                             alt="" class="icon">
-                        <span style="margin-left: 12px;">芬兰赫尔辛基 00700</span>
+                        <span style="margin-left: 12px;">芬兰赫尔辛基 （愿意为合适机会搬迁）</span>
                     </div>
                 </div>
             </div>
@@ -184,7 +205,7 @@
 
                         <p class="role-line"><span>~</span>办公室经理</p>
                         <p>FinBlu Safety Oy</p>
-                        <p>2025年1月 – 2025年10月（2025年7–10月停薪留职）</p>
+                        <p>2025年1月 – 2025年10月（2025年7月–10月期间因个人安排休假）</p>
                         <p>
                             负责优化采购、仓库、订单管理和配送环节的工作流程与资源安排。
                         </p>
